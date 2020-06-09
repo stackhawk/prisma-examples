@@ -1,3 +1,23 @@
+# Introduction
+
+This is a fork of the apollo example from in [Prisma Examples](https://github.com/prisma/prisma-examples/) found at
+[Apollo Examples](https://github.com/prisma/prisma-examples/tree/master/typescript/graphql-apollo-server)
+
+It has been modified to simplify the build and teardown with Docker and a base helper script.
+
+## Docker Build
+
+ - Make sure _docker-compose_ is present on the system.
+ - Set `SERVER_PORT` in the environment and run `docker-compose up` 
+ 
+```bash
+SERVER_PORT=4000
+docker-compose up
+```
+
+The details of the source project are below.
+
+
 <br />
 
 <div align="center">
